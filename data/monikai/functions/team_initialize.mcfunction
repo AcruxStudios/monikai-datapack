@@ -8,5 +8,5 @@ team join MonikAI @e[name=Monika_]
 team join MonikAI Alejo
 
 #set team rules
-team modify MonikAI collisionRule pushOwnTeams
+team modify MonikAI collisionRule pushOwnTeam
 team modify MonikAI seeFriendlyInvisibles false
