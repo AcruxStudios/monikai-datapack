@@ -1,0 +1,1 @@
+execute at @e[name=MONIKAI_MARKER_SPAWN] run summon minecraft:wolf ~ ~ ~ {CustomName:'{"text":"Monika_"}',Rotation:[90f,0f]}

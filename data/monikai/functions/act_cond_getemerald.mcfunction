@@ -1,0 +1,1 @@
+execute at @e[name=Monika_] if entity @a[name=Alejo,distance=..500] if entity @e[type=item,nbt={Item:{id:"minecraft:emerald"}},distance=..1] run function monikai:act_def_getemerald

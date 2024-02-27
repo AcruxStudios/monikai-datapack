@@ -1,0 +1,1 @@
+scoreboard players operation Alejo MONIKAI_TIMER_GIFTTYPE = Alejo MONIKAI_TIMERDEF_GIFTTYPE

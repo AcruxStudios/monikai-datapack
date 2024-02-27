@@ -1,0 +1,1 @@
+tellraw @a "<Monika> Good morning, sweetheart"

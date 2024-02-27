@@ -1,0 +1,1 @@
+tellraw @a "<Monika> Just like my eyes!"

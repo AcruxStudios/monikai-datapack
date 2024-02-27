@@ -1,0 +1,1 @@
+tellraw @a "<Monika> Sweet dreams, darling <3"

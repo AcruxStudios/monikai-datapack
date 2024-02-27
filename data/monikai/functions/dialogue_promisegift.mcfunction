@@ -1,0 +1,1 @@
+tellraw @a "<Monika> I promise i'll give you a gift soon, too"
