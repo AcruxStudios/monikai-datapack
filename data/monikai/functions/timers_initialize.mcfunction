@@ -33,3 +33,11 @@ scoreboard players set Alejo MONIKAI_TIMERDEF_DIALOG 10
 scoreboard objectives add MONIKAI_TIMER_DIALOG dummy
 function monikai:timers_restart_dialog
 #############################################################################################
+
+#GetFlower cooldown timer
+scoreboard objectives add MONIKAI_TIMERDEF_DIALOG_CD_GETITEM dummy
+scoreboard players set Alejo MONIKAI_TIMERDEF_DIALOG_CD_GETITEM 5
+
+scoreboard objectives add MONIKAI_TIMER_DIALOG_CD_GETITEM dummy
+function monikai:timers_restart_dialog_cd_getitem
+#############################################################################################
