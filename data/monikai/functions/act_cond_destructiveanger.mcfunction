@@ -1,0 +1,1 @@
+execute at @e[name=Monika_,nbt=!{AngerTime:0}] run function monikai:act_def_destructiveanger
