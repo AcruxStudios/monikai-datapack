@@ -22,6 +22,6 @@ execute at @e[name=MONIKAI_MARKER_DEAD] if score Alejo Health matches 1.. run se
 ##########################################################################################################################
 
 #Is Monika standing up and angry?
-execute at @e[name=MONIKAI_MARKER_STANDUPANGRY] if entity @e[name=Monika_,nbt={Sitting:0b}] if entity @e[name=Monika,nbt=!{AngerTime:0}] run setblock ~ ~-1 ~ redstone_block
-execute at @e[name=MONIKAI_MARKER_STANDUPANGRY] if entity @e[name=Monika_,nbt=!{Sitting:0b}] if entity @e[name=Monika,nbt=!{AngerTime:0}] run setblock ~ ~-1 ~ bedrock
+execute at @e[name=MONIKAI_MARKER_STANDUPANGRY] if entity @e[name=Monika_,nbt={Sitting:0b}] if entity @e[name=Monika_,nbt=!{AngerTime:0}] run setblock ~ ~-1 ~ redstone_block
+execute at @e[name=MONIKAI_MARKER_STANDUPANGRY] if entity @e[name=Monika_,nbt={AngerTime:0}] run setblock ~ ~-1 ~ bedrock
 ##########################################################################################################################
