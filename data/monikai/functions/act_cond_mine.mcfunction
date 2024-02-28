@@ -1,0 +1,1 @@
+execute if score @e[name=Monika_,limit=1] Height <= @e[name=Monika_,limit=1] HeightMining run function monikai:act_def_mine

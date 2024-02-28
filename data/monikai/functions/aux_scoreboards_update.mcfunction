@@ -1,0 +1,1 @@
+execute as @e[name=Monika_] store result score @s Height run data get entity @s Pos[1] 1
